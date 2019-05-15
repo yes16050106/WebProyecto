@@ -1,0 +1,161 @@
+ <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" type="text/css" href="css/index.css">
+   
+ </head>
+    <body>
+     <nav class=" blue darken-4" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="home.html"><img src="Imagenes/iconoLodantec.png" alt="logoLodantec"></a>
+          <ul class="right hide-on-med-and-down">
+            <ul class="right hide-on-med-and-down">
+          <li ><a class="enlace-menu white-text" href="index.html">Salir</a></li>
+        </ul>
+          <li ><a class="enlace-menu white-text" href="Registrar.html">Registrar</a></li>
+        </ul>
+          <ul class="right hide-on-med-and-down">
+          <li ><a class="enlace-menu white-text" href="Reportes.html">Reportes</a></li>
+        </ul>
+           <ul class="right hide-on-med-and-down">
+          <li ><a class="enlace-menu white-text " href="Ventas.html">Ventas</a></li>
+        </ul>
+          <ul class="right hide-on-med-and-down">
+          <li ><a class="enlace-menu white-text" href="Proveedores.html">Proveedores</a></li>
+        </ul>
+         <ul class="right hide-on-med-and-down">
+          <li ><a class="enlace-menu white-text" href="Servicios.html">Servicios</a></li>
+        </ul>
+         <ul class="right hide-on-med-and-down">
+          <li ><a class="enlace-menu white-text" href="Productos.html">Productos</a></li>
+        </ul>
+        <ul class="right hide-on-med-and-down">
+          <li ><a class="enlace-menu white-text" href="home.html">Home</a></li>
+        </ul>
+          
+
+          <ul id="nav-mobile" class="sidenav">
+            <li ><a href="login.html">Salir</a></li> 
+          <li ><a href="Reportes.html">Registrar</a></li>
+          <li ><a href="Reportes.html">Reportes</a></li>
+            <li ><a href="Ventas.html">Ventas</a></li>
+            <li ><a href="Proveedores.html">Proveedores</a></li>
+             <li ><a href="Servicios.html">Servicios</a></li>
+              <li ><a href="Productos.html">Productos</a></li>
+              <li ><a href="Index.html">Home</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger right"><i class="material-icons  white-text">menu</i></a>
+    </div>
+  </nav>
+
+      <!--titulo-->
+      <div class="container">
+  <div class="row center">
+    <h3 class="col s12 m8 l10">Servicios</h3>
+    <div class="col s12 m4 l2"><img src="Imagenes/servicios.png" alt="logoLodantec"></div>
+  </div>
+
+  <div class="row">
+    <div class="input-field col s6">
+      <input value="" id="Codigo" type="text" class="validate">
+      <label class="active" for="first_name2">Codigo del Servicio</label>
+    </div>
+    <div class="input-field col s6">
+      <input value="" id="nombre" type="text" class="validate">
+      <label class="active" for="first_name2">Servicio</label>
+    </div>
+    <div class="input-field col s6">
+      <input value="" id="costo" type="text" class="validate">
+      <label class="active" for="first_name2">Categoria</label>
+    </div>
+
+    <div class="input-field col s6">
+      <input value="" id="costo" type="text" class="validate">
+      <label class="active" for="first_name2">Descripcion</label>
+    </div>
+
+    <div class="input-field col s6">
+      <input value="" id="costo" type="text" class="validate">
+      <label class="active" for="first_name2">Costo</label>
+    </div>
+
+  <div class="right-align">
+ <a onclick="M.toast({html: 'Servicio Agregado '})" class=" blue darken-3 btn"><i class="material-icons right">laptop_mac</i>Agregar Servicio </i></a>
+</div>
+</div>
+</div>
+
+<br></br>
+
+
+<div class="container">
+ <table>
+        <thead>
+          <tr>
+              <th>Codigo Servicio</th>
+              <th>Servicio </th>
+               <th> Categoria</th>
+              <th> Descripcion</th>
+               <th>Costo</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>001</td>
+            <td>Limpieza de virus</td>
+            <td>Soporte tecnico</td>
+            <td>Limpieza de virus,instalacion de antivirus</td>
+            <td> $200</td>
+          </tr>
+
+          <tr>
+            <td>002</td>
+            <td>Diseño de logotipo</td>
+            <td>Diseño grafico</td>
+            <td>creacion de logotipo a cedesoft itsn</td>
+            <td> $1,500</td>
+          </tr>
+
+       
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br></br>
+
+   <div class="center-align">
+ <a onclick="M.toast({html: 'Servicio Modificado '})" class=" blue darken-3 btn"><i class="material-icons right">edit</i>Modificar</i></a>
+
+ <a onclick="M.toast({html: 'Servicio Eliminado'})" class=" blue darken-3 btn"><i class="material-icons right">delete</i>Eliminar</i></a>
+
+
+ <a onclick="M.toast({html: 'Registro Cancelado'})" class=" blue darken-3 btn"><i class="material-icons right">delete_forever</i>Cancelar</i></a>
+  </div>
+
+
+  <br></br>
+
+
+
+     <footer class="page-footer blue darken-4">
+            <div class="container">
+            © 2019 Copyright Lodantec
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+
+
+    </body>
+  </html>
